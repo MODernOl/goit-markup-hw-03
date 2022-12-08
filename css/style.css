@@ -24,8 +24,8 @@ img {
 h1,
 h2,
 h3,
-p ,
-ul{
+p,
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -141,7 +141,6 @@ ul{
   display: flex;
   column-gap: 24px;
   margin-top: 72px;
-
 }
 .list-section-three {
   display: flex;
@@ -154,7 +153,7 @@ ul{
   margin-top: 72px;
   margin-bottom: 120px;
 }
-.tittle-section-three{
+.tittle-section-three {
   margin-bottom: 8px;
 }
 
@@ -163,13 +162,16 @@ ul{
   background-color: #fff;
   padding: 32px 16px;
   text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .about-photo-port {
   display: block;
   padding: 32px 0px;
-  border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .tittle-to {
@@ -180,7 +182,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-shadows-color);
-  
 }
 
 .link-nav {
@@ -258,25 +259,19 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 100px 0;
-
-
 }
 
-.section-title-one{
-  padding-top:  120px ;
+.section-title-one {
+  padding-top: 120px;
 }
 
-.section-title{
+.section-title {
   padding: 120px 0;
-
 }
 
-.text-footer{
+.text-footer {
   width: 264px;
   margin-top: 16px;
-
-
-
 }
 .button {
   color: var(--main-link-color);
@@ -316,7 +311,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 .list {
   list-style-type: none;
   margin-bottom: 72px;
-  
 }
 .list-section-one {
   padding: 0;
@@ -324,7 +318,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   list-style: none;
   display: flex;
   column-gap: 24px;
-  
 }
 .list-section-one > .item-section-one {
   flex-basis: calc(100% / 4);
@@ -337,10 +330,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 .navigation {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.buttons-menu{
+.buttons-menu {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -352,6 +346,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 .tittle-text {
   padding-left: 16px;
 }
-.tittle-text{
+.tittle-text {
   padding-top: 8px;
 }
