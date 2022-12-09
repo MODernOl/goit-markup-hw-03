@@ -90,6 +90,9 @@ ul {
   text-decoration: none;
   margin-right: 77px;
 }
+.logotype-footer {
+  text-decoration: none;
+}
 .list-con,
 .list-nav {
   list-style-type: none;
@@ -151,10 +154,17 @@ ul {
   display: flex;
   column-gap: 24px;
   margin-top: 72px;
-  margin-bottom: 120px;
 }
 .tittle-section-three {
   margin-bottom: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-shadows-color);
 }
 
 .about-photo {
@@ -169,7 +179,9 @@ ul {
 
 .about-photo-port {
   display: block;
+
   padding: 32px 0px;
+  padding-left: 16px;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -229,7 +241,15 @@ ul {
   margin: 0 auto;
   margin-bottom: 48px;
 }
-
+.card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 .main-butt {
   font-weight: 600;
   font-size: 16px;
@@ -283,6 +303,8 @@ ul {
   align-items: center;
   padding: 12px 24px;
   gap: 10px;
+}
+.list-button:not(:last-child) {
   margin-right: 24px;
 }
 .button:hover {
@@ -325,15 +347,15 @@ ul {
 .list {
   display: flex;
   justify-content: center;
-  margin-right: 24px;
 }
 .navigation {
   display: flex;
   align-items: center;
+}
+header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 .buttons-menu {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -342,10 +364,25 @@ ul {
   display: flex;
   align-items: center;
 }
-.tittle,
-.tittle-text {
-  padding-left: 16px;
+
+.tittle-text ,
+.text-section-one{
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-body);
 }
-.tittle-text {
-  padding-top: 8px;
+.tittle ,
+.tittle-section-one{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-shadows-color);
 }
